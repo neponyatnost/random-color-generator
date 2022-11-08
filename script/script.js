@@ -3,7 +3,7 @@ const windowWidth = window.innerWidth
 const header = document.querySelector('.header')
 
 function mobileHeader() {
-  if (windowWidth.toString() <= '650') {
+  if (windowWidth.toString() <= 650) {
     header.textContent = 'Tap to refresh the colors'
   }
 }
